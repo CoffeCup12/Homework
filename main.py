@@ -21,19 +21,3 @@ def sort(arr, start, end):
             else:
                 arr[k] = right[j]
                 j+=1
-
-
-test = [random.randint(1, 10) for num in range(10)]
-print("unsorted: " + str(test))
-sort(test, 0, len(test))
-print("sorted: " + str(test))
-
-test = []
-print("special case: " + str(test))
-sort(test, 0, len(test))
-print("sorted: " + str(test))
-
-test = [1]
-print("special case2: " + str(test))
-sort(test, 0, len(test))
-print("sorted: " + str(test))
